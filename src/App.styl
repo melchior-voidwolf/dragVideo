@@ -1,0 +1,52 @@
+#root
+  background-color #25272b
+  height 100%
+  width 100%
+  max-width 100vw
+  overflow hidden
+  margin 0 auto
+  padding 0
+  text-align center
+  display flex
+  color #555
+
+.asset
+  width 300px
+  flex-shrink 0
+  background-color #111113
+  display grid
+  grid-template-columns 1fr 1fr
+  align-content start
+  grid-row-gap 20px
+  grid-column-gap 20px
+  padding-top 40px
+
+.asset-item img
+  height 80px
+  width 100px
+
+.main-frame
+  flex 1
+  display flex
+  flex-flow column nowrap
+
+.playback
+  flex 1
+  background-color #181818
+
+.channel
+  height 600px
+  background-color #151417
+  display flex
+  flex-flow column nowrap
+  justify-content center
+
+.channel-item
+  background-color #28292d
+  height 60px
+  border-radius 5px
+  margin 10px 0
+  position relative
+  .clip-item
+    height: 50px
+
